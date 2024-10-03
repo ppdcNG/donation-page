@@ -3,7 +3,9 @@ function get(id) {
   return document.getElementById(id);
 }
 
-const key = 'pk_test_436209c086483511b3d8cb318d158bf6b0c0e27e';
+// const key = 'pk_test_436209c086483511b3d8cb318d158bf6b0c0e27e'; // sas pk
+// sk_test_42be12d11e7256fc13d9332829554280082c531f // lucy sk
+const key = 'pk_test_d81a554e10c922380133e3555176247f1ea23bc3'; // lucy pk
 let paymentForm = get('paymentForm');
 let chooseCurrencySection = get('choose-currency');
 let selectAmountSection = get('select-amount');
