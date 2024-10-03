@@ -35,7 +35,7 @@ function goBack() {
 
 function processNaira() {
   showAmountSection();
-  currency.innerText = "Naira";
+  currency.innerText = "NGN";
   nairaBtn.style.display = 'block';
   usdBtn.style.display = 'none';
   paymentForm.addEventListener("submit", payNaira, false);
